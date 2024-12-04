@@ -265,4 +265,11 @@ public class Gestures {
         swipe(percentageX, percentageYInicial, percentageX, percentageYFinal, element);
     }
 
+    public static void swipePoint(
+            double percentageX,
+            double percentageY,
+            WebElement element
+    ) {
+        swipe(percentageX, percentageY, percentageX, percentageY, element);
+    }
 }
